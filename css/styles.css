@@ -1,0 +1,15 @@
+.logo{
+    font-family: "Vina Sans", sans-serif;
+    font-size: 48px;
+}
+
+.linea {
+    border: 1px solid red; /* Color de la línea */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.rekkles{
+    width: 20;
+}

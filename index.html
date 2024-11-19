@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="css/styles.css">
+    <title>The team</title>
+</head>
+
+
+
+<body class="bg-black " data-bs-spy="scroll" data-bs-target=".navbar" tabindex="0">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-black m-0 py-0  " >
+    <a class="navbar-brand" href="#">
+        <img src="img/t1logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active p-2" href="#inicio">Home</a>
+            <a class="nav-item nav-link active p-2" href="#equipo">El Roster</a>
+        </div>
+    </div>
+</nav>
+
+
+    <!--Carrusel-->
+    <article class="container" id="inicio">
+        <div id="carouselT1" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselT1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselT1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselT1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="img/p1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block text-black bg-white">
+                <h5 class="fs-2">La Épica Coronación de T1 en 2024</h5>
+                <p class="fs-3">El equipo T1 posa junto a la copa, consolidando su legado en 2024.</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="img/p2.webp" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block text-black bg-white">
+                <h5 class="fs-2">Unidos por el Triunfo</h5>
+                <p class="fs-3">La victoria de T1 reflejada en el orgullo y alegría de sus jugadores.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/p2.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block text-black bg-white">
+                <h5 class="fs-2">El Momento de Zeus</h5>
+                <p class="fs-3">Zeus, con una sonrisa triunfal, alza la copa que corona su esfuerzo.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselT1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselT1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </article>
+      
+
+
+    <hr class="linea">
+
+    <div class="container text-center text-danger p-4">
+        <h1 class="fw-bold">El Roster de T1 en la final de 2024</h1>
+    </div>
+
+    <main class="container text-danger my-4" id="equipo">
+        <div class="d-flex flex-wrap justify-content-center text-center">
+          
+          <!-- Faker -->
+          <div class="p-2">
+            <img src="img/faker.png" class="bg-dark img-fluid rounded" alt="Faker">
+            <h2 class="h6 mt-2 fs-3">Faker</h2>
+            <small class="modal-dialog modal-sm text-white">Mid Laner</small>
+            <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="popover" data-bs-title="Most Valuable Player" data-bs-content="Faker ha conseguido su segundo MVP en unas finales de Worlds, ocho años después de su primer título. Este logro resalta aún más al no haber nadie que lo iguale en su trayectoria.">MVP</button>
+            <button type="button" class="btn text-warning info" data-bs-toggle="modal" data-bs-target="#infoModalFaker">
+              Más Información
+            </button>
+      
+            <!-- Modal Faker -->
+            <div class="modal fade" id="infoModalFaker" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="infoModalLabel">Carril central</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Lee "Faker" Sang-hyeok es considerado la mayor leyenda de League of Legends. Debutó profesionalmente en 2013 con T1 (anteriormente SK Telecom T1) y ha mantenido un nivel de excelencia durante más de una década. Ha ganado cinco campeonatos mundiales (2013, 2015, 2016, 2023, y 2024), más que cualquier otro jugador en la historia del juego, consolidando su título como el "GOAT" (Greatest of All Time). Faker es conocido por su versatilidad en el carril central, su dominio estratégico y su capacidad para sobresalir bajo presión. A pesar de los desafíos a lo largo de los años, sigue siendo un modelo de perseverancia y dedicación en los esports【29】【30】.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Oner -->
+          <div class="p-2">
+            <img src="img/oner.png" class="bg-dark img-fluid rounded" alt="Oner">
+            <h2 class="h6 mt-2 fs-3">Oner</h2>
+            <small class="modal-dialog modal-sm text-white">Jungler</small>
+            <button type="button" class="btn text-warning info" data-bs-toggle="modal" data-bs-target="#infoModalOner">
+              Más Información
+            </button>
+      
+            <!-- Modal Oner -->
+            <div class="modal fade" id="infoModalOner" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="infoModalLabel">Jungler</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Oner (Moon Hyeon-joon), jungler de T1, es reconocido por su capacidad estratégica y por dominar campeones como Vi y Xin Zhao. Ha sido fundamental en la coordinación y ejecución de las estrategias del equipo, desempeñando un papel crucial en la conquista de Worlds 2024. Su enfoque disciplinado y su química con el resto de los jugadores han sido claves en el rendimiento de T1 en torneos internacionales.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Zeus -->
+          <div class="p-2">
+            <img src="img/zeus.png" class="bg-dark img-fluid rounded" alt="Zeus">
+            <h2 class="h6 mt-2 fs-3">Zeus</h2>
+            <small class="modal-dialog modal-sm text-white">Top Laner</small>
+            <button type="button" class="btn text-warning info" data-bs-toggle="modal" data-bs-target="#infoModalZeus">
+              Más Información
+            </button>
+      
+            <!-- Modal Zeus -->
+            <div class="modal fade" id="infoModalZeus" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="infoModalLabel">Top Laner</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Zeus (Choi Woo-je) es el top laner de T1, destacado por su versatilidad y dominio con campeones como Camille, Gnar y Gragas. Desde que debutó en el equipo principal en 2021, ha sido una pieza clave en el éxito competitivo de T1, contribuyendo significativamente a su victoria en Worlds 2024. Su habilidad mecánica y su capacidad para adaptarse a diferentes estilos de juego lo han consolidado como uno de los mejores top laners del mundo​.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Gumayusi -->
+          <div class="p-2">
+            <img src="img/gumayusi.png" class="bg-dark img-fluid rounded" alt="Gumayusi">
+            <h2 class="h6 mt-2 fs-3">Gumayusi</h2>
+            <small class="modal-dialog modal-sm text-white">ADC</small>
+            <button type="button" class="btn text-warning info" data-bs-toggle="modal" data-bs-target="#infoModalGumayusi">
+              Más Información
+            </button>
+      
+            <!-- Modal Gumayusi -->
+            <div class="modal fade" id="infoModalGumayusi" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="infoModalLabel">ADC</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Gumayusi, el tirador de T1, es conocido por su consistencia y habilidad mecánica en la línea inferior. En Worlds 2024, jugó un papel decisivo, destacando por su excelente KDA, alto daño por minuto y una participación constante en asesinatos. Su química con Keria fue fundamental para el éxito del equipo, culminando en un rendimiento excepcional durante los momentos cruciales de la final, consolidando a T1 como campeones del mundo.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Keria -->
+          <div class="p-2">
+            <img src="img/keria.png" class="bg-dark img-fluid rounded" alt="Keria">
+            <h2 class="h6 mt-2 fs-3">Keria</h2>
+            <small class="modal-dialog modal-sm text-white">Support</small>
+            <button type="button" class="btn text-warning info" data-bs-toggle="modal" data-bs-target="#infoModalKeria">
+              Más Información
+            </button>
+      
+            <!-- Modal Keria -->
+            <div class="modal fade" id="infoModalKeria" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">d
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="infoModalLabel">Support</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Keria, soporte de T1, es considerado uno de los mejores en su rol. Ha logrado múltiples reconocimientos, como el premio al Supporter of the Year en tres ocasiones consecutivas (2021-2023). En 2023, se destacó al ser el primer soporte en la historia de la LCK en ganar el título de Player of the Split y el MVP de temporada regular. En su trayectoria internacional, fue clave para que T1 alcanzara las finales de Worlds en 2022 y 2023, obteniendo finalmente el campeonato en 2023​.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="container text-center text-danger p-4">
+              <h1 class="fw-bold">Nuevos jugadores profesionales</h1>
+          </div>
+
+          <!-- Rekkles -->
+          <div class="p-2" id="nuevosJugadores">
+            <img src="img/rekkles.webp" class="bg-dark img-fluid rounded w-50 h-60 rekkles" alt="Rekkles">
+            <h2 class="h6 mt-2 fs-3">Rekkles</h2>
+            <small class="modal-dialog modal-sm text-white">Support</small>
+            <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="popover" data-bs-title="Nuevo Jugador" data-bs-content="En 2024, Rekkles dio un paso audaz al unirse a T1, uno de los equipos más prestigiosos de Corea del Sur. Este movimiento sorprendió a la comunidad, pero también destacó su ambición de conquistar nuevos horizontes y buscar el codiciado título mundial, el cual logró en esa misma temporada.">Nuevo</button>
+            <button type="button" class="btn text-warning info" data-bs-toggle="modal" data-bs-target="#infoModalRekles">
+              Más Información
+            </button>
+      
+            <!-- Modal Keria -->
+            <div class="modal fade" id="infoModalRekles" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">d
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="infoModalLabel">Support</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Rekkles (Martin Larsson) es un destacado jugador sueco de League of Legends, reconocido por su habilidad como tirador y su longevidad en la escena competitiva. Comenzó su carrera profesional en 2012 y se hizo famoso en Fnatic, donde logró varios títulos de la LEC y alcanzó la final del Mundial en 2018. En 2024, dio un giro a su carrera al unirse a T1, buscando nuevos retos y finalmente logrando la victoria en el Mundial de ese año. Conocido por su estilo meticuloso y su gran posicionamiento en el juego, Rekkles también es admirado por su profesionalismo y su personalidad tranquila fuera de la cancha​.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </main>
+      
+
+    
+
+
+
+
+
+
+
+    
+</body>
+
+<script src="js/app.js"></script>
+</html>
